@@ -19,16 +19,16 @@
   }
   
   #info {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
   }
   
   #info div {
     padding: 3rem;
-    background: rgb(9, 60, 227);
+    background: rgb(247, 186, 235);
     margin: 0.5rem;
-    border-radius: 10px;
-    color: #fff;
+    border-radius: 50px;
+    color: #000000;
     font-size: 1.2rem;
     text-align: center;
   }

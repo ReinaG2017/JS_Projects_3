@@ -1,35 +1,36 @@
 let data = [
 {
-    name: 'Matero',
-    age: '36'
+    name: 'Red Panda',
+    rank: '1st'
 },
 {
-    name: 'Sarah',
-    age: '32'
+    name: 'Fennec Fox',
+    rank: '2nd'
 },
 {
-    name: 'John',
-    age: '20'
+    name: 'Maine Coon',
+    rank: '3rd'
 },
 {
-    name: 'Tim',
-    age: '27'
+    name: 'Sea Otter',
+    rank: '4th'
 },
 {
-    name: 'Sam',
-    age: '22'
+    name: 'Pikas',
+    rank: '5th'
 },
 {
-    name: 'Joey',
-    age: '34'
+    name: 'Sloth',
+    rank: '6th'
 }
 
 ];
 
 const info = document.querySelector('#info');
   
-  let details = data.map(function(item) {
-    return '<div>' + item.name + ' ' + 'is ' + item.age + ' years old' + '</div>';
-  });
+let details = data.map(function(item) {
+  return '<div>' + item.name + ' ' + 'placed ' + item.rank + ' as cutest animal!' + '</div>';
+});
+
   
   info.innerHTML = details.join('\n');
