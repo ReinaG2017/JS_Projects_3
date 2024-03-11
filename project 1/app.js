@@ -1,17 +1,17 @@
-const closedFace = document.querySelector('.closed');
-const openFace = document.querySelector('.open');
+const hotEmo = document.querySelector('.hot');
+const wetEmo = document.querySelector('.wet');
 
 //add event listner
-closedFace.addEventListener('click',() => {
-    if (openFace.classList.contains('open')) {
-        openFace.classList.add('active');
-        closedFace.classList.remove('active');
+hotEmo.addEventListener('click',() => {
+    if (wetEmo.classList.contains('wet')) {
+        wetEmo.classList.add('active');
+        hotEmo.classList.remove('active');
     }
 });
 
-openFace.addEventListener('click',() => {
-    if(closedFace.classList.contains('closed')) {
-        closedFace.classList.add('active');
-    openFace.classList.remove('active');
+wetEmo.addEventListener('click',() => {
+    if(hotEmo.classList.contains('hot')) {
+        hotEmo.classList.add('active');
+    wetEmo.classList.remove('active');
     }
 });

@@ -18,11 +18,11 @@ cursor: pointer;
 user-select: none;
 }
 
-.closed {
+.hot {
     display: none; 
 }
 
-.open {
+.wet {
     display: none;
 }
 
