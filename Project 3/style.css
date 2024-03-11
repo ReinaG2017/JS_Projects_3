@@ -18,9 +18,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
-  width: 200px;
-  background: slateblue;
+  height: 100px;
+  width: 100px;
+  background: rgb(255,222,52);
   border-radius: 100px;
   font-size: 1.5rem;
   color: #fff;
@@ -29,5 +29,5 @@ body {
 }
 
 .hover {
-  transform: scale(2);
+  transform: scale(4);
 }
